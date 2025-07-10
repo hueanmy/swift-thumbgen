@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-thumbgen}",
+            "name": "Debug swift-thumbgen",
+            "program": "${workspaceFolder:swift-thumbgen}/.build/debug/swift-thumbgen",
+            "preLaunchTask": "swift: Build Debug swift-thumbgen"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-thumbgen}",
+            "name": "Release swift-thumbgen",
+            "program": "${workspaceFolder:swift-thumbgen}/.build/release/swift-thumbgen",
+            "preLaunchTask": "swift: Build Release swift-thumbgen"
+        }
+    ]
+}
